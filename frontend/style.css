@@ -24,8 +24,8 @@ body{
 .card1{
     background-color: white;
     max-width: 20%;
-    border-radius: 10%;
-    border-radius: 10px;
+    border-radius: 1%;
+    border-radius: 4px;
     padding: 20px;
     padding-bottom: 1px;
     margin-right: 20px;
@@ -71,7 +71,7 @@ body{
 }
 .card1 .middle{
     color: grey;
-    line-height: 25px; 
+    line-height: 30px; 
 }
 
 .card1 .bottom{
@@ -93,7 +93,46 @@ body{
 
 
 
-.Pricing{
+.Pricing h2{
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
+}
+.Pricing p{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    line-height: 1px; 
+}
+
+.Price_card{
+    display: flex;
+    justify-content: center;
+}
+
+.price{
+    background-color: rgb(231, 238, 224);
+    background-size: 300%;
+    max-width: 20%;
+    border-radius: 1%;
+    border-radius: 4px;
+    padding: 100px;
+    padding-top: 1px;
+    margin-right: 20px;
+}
+.Top1 .Text1{
+    display: flex;
+   justify-content: left;
+   padding-right: 200px;
+}
+
+.Top1 h1{
+    display: flex;
+    justify-content: left;
+}
+
+.Middle1{
+    display: flex;
+    
+    
+
 }
