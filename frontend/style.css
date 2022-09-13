@@ -91,48 +91,66 @@ body{
     justify-content: center;
 }
 
-
-
-.Pricing h2{
-    display: flex;
-    justify-content: center;
+.pricing{
+    width: 35%;
+    margin-bottom: 70px;
 }
-.Pricing p{
+.price__heading{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+   
+}
+.price__heading  h2{
+    margin-bottom: -10px;
+}
+.price__heading p{
     color: grey;
-    line-height: 1px; 
+}
+.price__card{
+    background-color: #fbf8f3;
+    padding: 30px;
+    border: 1px orange solid;
+    border-radius: 20px;
 }
 
-.Price_card{
+
+.price__card__text{
+    border-bottom: 1px rgb(192, 192, 192) solid;
+}
+.price__card__text p{
+    color: grey;
+}
+.dollar{
+    color: black !important;
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.dollar span{
+    color: grey;
+    font-weight: 100;
+    font-size: 16px;
+}
+.pricing ul{
+    border-bottom: 0.5px rgb(192, 192, 192) solid;
+}
+.pricing ul li{
+
+    background: url(../frontend/Icons/verified.png) no-repeat left center;
+    list-style: none;    
+    padding: 5px 10px 5px 25px;
+    margin-bottom: 5px;
+    line-height: 25px;
+}
+.btn{
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #03A9F4;
+    border-radius: 5px;
+    color: white;
 }
 
-.price{
-    background-color: rgb(231, 238, 224);
-    background-size: 300%;
-    max-width: 20%;
-    border-radius: 1%;
-    border-radius: 4px;
-    padding: 100px;
-    padding-top: 1px;
-    margin-right: 20px;
-}
-.Top1 .Text1{
-    display: flex;
-   justify-content: left;
-   padding-right: 200px;
-}
-
-.Top1 h1{
-    display: flex;
-    justify-content: left;
-}
-
-.Middle1{
-    display: flex;
-    
-    
-
-}
