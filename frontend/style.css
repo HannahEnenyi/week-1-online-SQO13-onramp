@@ -135,7 +135,7 @@ body{
 }
 .pricing ul li{
 
-    background: url(./icons/icons8-tiktok-verified-account-22.png) no-repeat left center;
+    background: url(.//Icons/verified.png) no-repeat left center;
     list-style: none;    
     padding: 5px 10px 5px 25px;
     margin-bottom: 5px;
