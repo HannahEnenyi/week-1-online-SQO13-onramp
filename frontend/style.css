@@ -90,6 +90,8 @@ body{
 .pricing{
     width: 35%;
     margin-bottom: 70px;
+    margin: auto;
+
 }
 .price__heading{
     display: flex;
